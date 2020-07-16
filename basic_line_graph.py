@@ -1,9 +1,11 @@
 from bokeh.plotting import figure
 from bokeh.io import output_file, show
+import pandas 
 
 # prepare some data
-x = [1,2,3,4,5]
-y = [6,7,8,9,10]
+df = pandas.read_csv("files\data.csv")
+x = df["x"]
+y = df["y"]
 
 output_file("line.html")
 
