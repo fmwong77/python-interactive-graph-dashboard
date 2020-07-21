@@ -13,5 +13,5 @@ f.xaxis.axis_label = "Temperature (°C)"
 f.yaxis.axis_label = "Pressure (hPa)"
 f.xaxis.minor_tick_line_color=None
 f.yaxis.minor_tick_line_color=None
-f.circle(x, y, size=0.5)
+f.circle(x, y, size=0.3)
 show(f)
